@@ -24,8 +24,8 @@ Customers have projects. Projects have tasks.
 5. Delete customer
 `DELETE localhost:3333/customers/id`
 
-### Note:
-1. 'FindCustomer' middleware implemented so you don't query database in controller methods (avoiding repitition and controller methods looking cleaner)
+#### Note:
+1. `FindCustomer` middleware implemented so you don't query database in controller methods (avoiding repitition and controller methods looking cleaner)
 2. Model relationships defined for Projects and Tasks
 
 ## Endpoints To-Do  - for fun!
