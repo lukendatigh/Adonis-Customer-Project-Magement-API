@@ -6,7 +6,7 @@ Customers have projects. Projects have tasks.
 ## Setup
 1. Install AdonisJS using `npm i -g @adonisjs/cli`
 2. Clone the repository 
-3. Set up your database sever
+3. Set up your database server
 4. Duplicate `.env.example` and rename to `.env` then set your environment variables
 5. Run migration with `adonis migration:run`  
 6. Run dev server using `nodemon server.js` or `adonis serve --dev`
@@ -25,8 +25,8 @@ Customers have projects. Projects have tasks.
 `DELETE localhost:3333/customers/id`
 
 #### Note:
-1. `FindCustomer` middleware implemented so you don't query database in controller methods (avoiding repitition and controller methods looking cleaner)
-2. Model relationships defined for Projects and Tasks
+1. `FindCustomer` middleware implemented so you don't query database in controller methods (avoiding repitition and controller methods looking bulky)
+2. Model relationships are already defined for Projects and Tasks, just code on!
 
 ## Endpoints To-Do  - for fun!
 - [ ] List projects of customer
