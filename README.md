@@ -6,11 +6,12 @@ Customers have projects. Projects have tasks.
 ## Setup
 1. Install AdonisJS using `npm i -g @adonisjs/cli`
 2. Clone the repository 
-3. Set up your database server
-4. Duplicate `.env.example` and rename to `.env` then set your environment variables
-5. Run migration with `adonis migration:run`  
-6. Run dev server using `nodemon server.js` or `adonis serve --dev`
-7. Run postman and send requests to endpoints
+3. Install dependencies using `npm install`
+4. Set up your database server
+5. Duplicate `.env.example` and rename to `.env` then set your environment variables
+6. Run migration with `adonis migration:run`  
+7. Run dev server using `nodemon server.js` or `adonis serve --dev`
+8. Run postman and start sending requests to endpoints
 
 ## API Endpoints
 1. List customers
